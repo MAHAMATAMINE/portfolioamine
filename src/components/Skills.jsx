@@ -1,4 +1,4 @@
-// import content
+   // import content
 import { createElement, useState } from "react";
 import { content } from "../Content";
 // import modal package

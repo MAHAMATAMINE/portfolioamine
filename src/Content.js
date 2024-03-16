@@ -7,6 +7,10 @@ import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
+import php from "./assets/images/Skills/php.png";
+import symfony from "./assets/images/Skills/symfony.png";
+import javascript from "./assets/images/Skills/javascript.png"
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -33,6 +37,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { FaLinkedin } from 'react-icons/fa';
 
 export const content = {
   nav: [
@@ -58,14 +63,14 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "Software Engineer",
+    firstName: "AMIN",
+    LastName: "OUSSOUL",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "2+",
         text: "Years of Experinse in Web development",
       },
       {
@@ -79,33 +84,33 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "PHP",
+        para: "A backend Programming Language",
+        logo: php,
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "a JavaScript runtime",
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "Symfony",
+        para: "A PHP web application framework",
+        logo: symfony,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "front-end JavaScript library",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "Javascript",
+        para: "A programming language",
+        logo: javascript,
       },
       {
         name: "Python",
-        para: "Lorem ipsum text  dummy",
+        para: "a Programming Language",
         logo: python,
       },
     ],
@@ -116,18 +121,18 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Front end Development",
+        para: "Development of the graphical user interface of a website, through the use of HTML, CSS, JavaScript, and Réact",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Database Administration",
+        para: "creating and organize systems to store and secure a variety of data using postgresql Mysql Sql end supabase",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Backend Développement",
+        para: "involvement in data storage, security, and other server-side functions using Php,Nodesjs, with Symfony Express ,Nextjs and Typescript ",
         logo: services_logo3,
       },
     ],
@@ -186,27 +191,27 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: " My passion for coding and problem-solving drives me to continuously learn and adapt to new technologies. Let's collaborate and turn your ideas into stunning digital experiences!",
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "aminoussoul@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:aminoussoul@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+0758516076",
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "My Linkedin",
+        icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/oussoul/",
       },
     ],
   },

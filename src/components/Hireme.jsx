@@ -3,6 +3,12 @@ import { content } from "../Content";
 const Hireme = () => {
   const { Hireme } = content;
 
+  const handleDownloadCV = () => {
+    // Replace 'your_cv.pdf' with the actual path to your CV file
+    const downloadLink = 'https://drive.google.com/file/d/1KwOtbaAnt-6cN9WXPz4t2zKnUFIpRxoK/view?usp=drive_link';
+    window.open(downloadLink, '_blank');
+  };
+
   return (
     <section className="bg-bg_light_primary">
       <div className="md:container px-5 pt-14">
@@ -33,8 +39,8 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
-              {Hireme.btnText}
+            <button className="btn bg-dark_primary text-white" onClick={handleDownloadCV}>
+              Download CV
             </button>
           </div>
         </div>
